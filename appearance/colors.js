@@ -1,0 +1,8 @@
+export const colorMain = '#6495ed'
+export const colorSecond = '#7ac1d1'
+export const colorOk = '#22a12b'
+export const colorAchtung = '#d13e45'
+export const colorSpecial = '#ccb5e4'
+export const colorLight = '#eee'
+export const colorSemiMedium = '#dddddd'
+export const colorMedium = '#ccc'
