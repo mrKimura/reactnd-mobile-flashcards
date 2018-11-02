@@ -50,7 +50,9 @@ class DeskList extends Component {
         navigation={navigation}
       >
         <DeskName>{title}</DeskName>
-        <DeskCardsNumber>{questions.length} cards</DeskCardsNumber>
+        <DeskCardsNumber>
+          {questions.length} {questions.length === 1 ? 'card' : 'cards'}
+        </DeskCardsNumber>
       </DeskListItem>
     )
   }

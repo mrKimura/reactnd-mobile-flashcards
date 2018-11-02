@@ -43,7 +43,9 @@ class Desk extends Component {
       <CenteredWrapper>
         <CenteredWrapper>
           <H1Text>{title}</H1Text>
-          <Informer>{questions.length} cards</Informer>
+          <Informer>
+            {questions.length} {questions.length === 1 ? 'card' : 'cards'}
+          </Informer>
         </CenteredWrapper>
         <BtnWrapper>
           <Button type="main" text="Add Card" pressHandler={this.handleAddCard} />

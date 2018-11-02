@@ -12,6 +12,10 @@ class Quiz extends Component {
     correctAnswers: 0,
   }
 
+  componentDidMount() {
+    this.setupNotification()
+  }
+
   handlerShowAnswer = () => {
     this.setState(prevState => ({
       showAnswer: !prevState.showAnswer,
@@ -40,12 +44,10 @@ class Quiz extends Component {
       currentQuestionNumber: 0,
       correctAnswers: 0,
     }))
-    this.setupNotification()
   }
 
   handlerGoBack = () => {
     const { navigation } = this.props
-    this.setupNotification()
     navigation.goBack()
   }
 
