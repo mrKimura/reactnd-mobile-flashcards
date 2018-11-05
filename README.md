@@ -1,6 +1,7 @@
 # Mobile Flashcards - Project 3 for Udacity React Nanodegree
 
-Final assessment project for Udacity's React Native course.
+This is the project for Udacity's React & Redux course.
+It shows my skills in developing mobile applications using framework React Native.
 Mobile Flashcards is a React Native application that allows users to create decks of
 flashcard questions, and then take quizes with the created decks. 
 
